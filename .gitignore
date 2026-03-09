@@ -1,0 +1,10 @@
+# Ignore backend folder for now (empty)
+be/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
