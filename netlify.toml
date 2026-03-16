@@ -1,2 +1,8 @@
-[build]
+﻿[build]
   publish = "fe"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive, nosnippet, noimageindex"
+    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
